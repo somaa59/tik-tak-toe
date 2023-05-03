@@ -1,8 +1,8 @@
-package zyiad2;
+package tikTakToe;
 
 import java.util.Scanner;
 
-public class Zyiad2 {
+public class tikTakToe {
 
     public static char board[][] = new char[3][3];
 
@@ -129,7 +129,7 @@ public class Zyiad2 {
 
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
-                Zyiad2.board[i][j] = ' ';
+                tikTakToe.board[i][j] = ' ';
             }
         }
 
